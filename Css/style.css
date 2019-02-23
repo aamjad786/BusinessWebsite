@@ -1,0 +1,181 @@
+/* top header styling */
+#topheader a{
+    color: #2c3e50;
+}
+#topheader{
+    border-bottom: 1px solid silver;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#bottomHeader .container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+    background: #0b608d;
+}
+.navitem{
+    margin-right: 10px;
+}
+#logo,#flogo{
+    width:130px;
+}
+
+/* Footer Styling */
+.footercon{
+    background: #2c3e50;
+    padding:3em 0;
+    border-top-right-radius:40px;
+    margin-top:120px ;
+    transform: skewY(2deg);
+   
+}
+#footer .container-fluid{
+    transform:skewY(-2deg);
+} 
+.footercon:before{
+    content:"";
+    width:40px;
+    height:40px;
+    background-color:#2c3e50;
+    position:absolute;
+    top:-39px;
+    left:0;
+    z-index:-2;
+}
+.footercon:after{
+    content:"";
+    width:80px;
+    height:80px;
+    background-color:white;
+    position:absolute;
+    z-index: -1;
+    top:-80px;
+    left:0;
+    border-radius:50%;
+} 
+#copyright{
+    background: #2d3436;
+    height: 100px;
+    margin: -30px;
+    padding-top: 50px;
+    text-align: center;
+}
+#footerpara{
+    color:silver;
+    padding-top:10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#secondcol, #secondcol a{
+    color:silver;
+}
+#thirdcol a{
+    color: silver;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+/* Homepage hero section */
+#herosection{
+    background-color: #0c71a3;   
+}
+#herosection #btn{
+    background-color: #162d4c; 
+    color: white;  
+}
+#firstcol h4,#firstcol p{
+    color:white;
+}
+#firstcol h5{
+    color:#e6dcdc;
+}
+#image{
+    width:350px;
+}
+/* Slider styling */
+#slider .container-fluid{
+    padding:0;
+}
+#middlesection .container-fluid{
+    background-color: ghostwhite;
+    border-bottom: 1px solid silver;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.qualities-img{
+    width: 180px;
+}
+#newslatter{
+    background-color: #192a56;
+    color:white;
+}
+#newslatter .form-control{
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+
+}
+#newslatter .btn{
+    border-color: transparent;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #e84118;
+    color:white;
+}
+/* Services section styling */
+#servicescon{
+    background: #00cec9;
+    padding: 3em 0;
+    border-top-left-radius:40px;
+    transform: skewY(-2deg);
+    margin-top: 110px;
+   
+}
+#servicescon .container{
+    transform: skewY(2deg);
+}
+#servicescon:before{
+    content:"";
+    width:40px;
+    height:40px;
+    background-color:#00cec9;
+    position:absolute;
+    top:-39px;
+    right:0;
+    z-index:-2;
+}
+#servicescon:after{
+    content:"";
+    width:80px;
+    height:80px;
+    background-color:white;
+    position:absolute;
+    z-index: -1;
+    top:-80px;
+    right:0;
+    border-radius:50%;
+} 
+/* Client Section */
+.clients{
+    background-color:ghostwhite;
+    border-bottom: 1px solid silver;
+    margin-top:-40px;
+}
+.clients h4{
+    padding-top:30px;
+}
+/*Services Section styling */
+.servicecard{
+    background-color: #f8f8ff;
+    margin-top:100px;
+    margin-left:10px;
+    padding-bottom: 10px;
+    height: 225px;
+}
+.servicecard .s1-img{
+    width:150px;
+    margin-top:-90px;
+    margin-bottom: 20px;
+}
+#servicescon .col-md-4{
+    padding:30px;
+}
+#servicescon a{
+    font-weight:bold;
+}
